@@ -19,7 +19,7 @@ def testing():
 
 def test_show_my_pets():
     # Вводим email:
-    pytest.driver.find_element_by_id('email').send_keys('an.belichenko@gmail.com')
+    pytest.driver.find_element_by_id('email').send_keys('test.for.qap39@gmail.com')
     # Вводим пароль:
     pytest.driver.find_element_by_id('pass').send_keys('Nastik13')
     # Нажимаем на кнопку входа в аккаунт:
